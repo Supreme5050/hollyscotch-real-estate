@@ -29,3 +29,11 @@ npm run build
 
 ## Notes
 The demo property listings and imagery are presentation content. Replace them with the client's real inventory before a public launch.
+
+
+## Deployment compatibility update
+- Next.js updated to 15.5.25 (maintenance release line).
+- React and React DOM updated to 19.2.7.
+- Autoprefixer alignment warnings removed by using `flex-end`.
+
+Before pushing, run `npm install`, `npx tsc --noEmit`, and `npm run build`.
